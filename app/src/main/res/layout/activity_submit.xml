@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".submitActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="13pt"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:text="@string/confirm_event"
+        android:fontFamily="@font/ptserif_bold"
+        android:textColor="@color/black">
+    </TextView>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_title_text"
+        android:textAlignment="center"
+        android:paddingTop="26dp"
+        android:textSize="10pt"
+        android:fontFamily="@font/ptserif_regular"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_and_time"
+        android:textAlignment="center"
+        android:paddingTop="26dp"
+        android:textSize="10pt"
+        android:fontFamily="@font/ptserif_regular">
+    </TextView>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textAlignment="center"
+        android:paddingTop="26dp"
+        android:textSize="10pt"
+        android:fontFamily="@font/ptserif_regular">
+    </TextView>
+
+    <TextView
+        android:id="@+id/num_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_friends_invited"
+        android:textAlignment="center"
+        android:paddingTop="26dp"
+        android:textSize="10pt"
+        android:fontFamily="@font/ptserif_regular">
+    </TextView>
+
+    <TextView
+        android:id="@+id/friends_invited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friends_invited"
+        android:textAlignment="center"
+        android:paddingTop="26dp"
+        android:textSize="10pt"
+        android:fontFamily="@font/ptserif_regular">
+    </TextView>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fireworks" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Meetup App!</string>
+    <string name="hub_button">Chats</string>
+    <string name="hub_welcome_user">Welcome </string>
+    <string name="API_KEY">AIzaSyAK7YTYGoEIchEkcKxQlIQkyyBj6grqH1A</string>
+    <string name="register_helper_name">First Name</string>
+    <string name="register_helper_password">Password</string>
+    <string name="register_helper_email">Email</string>
+    <string name="register_location_header">Location</string>
+    <string name="register_text">Register</string>
+    <string name="login_text">Login</string>
+    <string name="create_event">Create Event</string>
+    <string name="create_your_event">Create Your Event</string>
+    <string name="select_date_and_time">SELECT DATE AND TIME</string>
+    <string name="title_activity_location">locationActivity</string>
+    <string name="register_login_text">Already have an account?</string>
+    <string name="login_register_text">Don\'t have an account?</string>
+    <string name="search_radius_km">Search Radius (KM)</string>
+    <string name="confirm_event">Confirm Event</string>
+    <string name="event_title_text">Event Title</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="number_of_friends_invited">Number of Friends Invited</string>
+    <string name="location">Location</string>
+    <string name="friends_invited">Friends Invited</string>
+    <string name="confirm">Confirm</string>
+</resources>
